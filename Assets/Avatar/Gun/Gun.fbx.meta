@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: a1a063467577f7b4c8917c93aa0ba7e8
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_0
+    second: {fileID: 2100000, guid: 316b81285f47fc1478da62c473958278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_1
+    second: {fileID: 2100000, guid: 3d187c9f8a2115240838938886f11555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_2
+    second: {fileID: 2100000, guid: 089fdefa899b8444692a0ab7f73525aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_3
+    second: {fileID: 2100000, guid: 94aa8539796d09f4cb9c63aba7a02cff, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Bullets1_diff
+    second: {fileID: 2800000, guid: 87c2c26bb14765741a3c1bb748b8efae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ironsights1_diff
+    second: {fileID: 2800000, guid: 3e4b0e6d4b0078e4ab72f2de3a384f69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Main1_diff
+    second: {fileID: 2800000, guid: 3f8d8ccef515c884ebe2e5f018676ede, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: node_f37da982_75e1_4348_bd9d_e8b91385a2c0
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_fa429ad8_88db_4a72_9054_8ab3129fd98d
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Gun(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera
+      parentName: Gun(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.09062847, y: 0.89379627, z: -0.20997298, w: 0.3857799}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Light
+      parentName: Gun(Clone)
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.52327543, y: -0.34203392, z: 0.72694236, w: 0.28416622}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: node_f37da982_75e1_4348_bd9d_e8b91385a2c0
+      parentName: Gun(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: node_fa429ad8_88db_4a72_9054_8ab3129fd98d
+      parentName: node_f37da982_75e1_4348_bd9d_e8b91385a2c0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.94048184, y: 0.000000019139106, z: -0.25350514, w: 0.2263386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      parentName: node_fa429ad8_88db_4a72_9054_8ab3129fd98d
+      position: {x: -0.000035063986, y: -0.0015659574, z: -0.00013008446}
+      rotation: {x: 0.7071069, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91_mesh0
+      parentName: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      position: {x: -0, y: 9.3132255e-12, z: 1.758912e-10}
+      rotation: {x: -7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91_mesh1
+      parentName: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      position: {x: -0, y: 9.3132255e-12, z: 1.758912e-10}
+      rotation: {x: -7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91_mesh2
+      parentName: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      position: {x: -0, y: 9.3132255e-12, z: 1.758912e-10}
+      rotation: {x: -7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91_mesh3
+      parentName: node_5fbcbbc8_da66_41e5_afe6_e8cd2409bb91
+      position: {x: -0, y: 9.3132255e-12, z: 1.758912e-10}
+      rotation: {x: -7.1054274e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
